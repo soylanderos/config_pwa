@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenid@s a #ProgramadorFitness, serie de videos, donde te daré consejos para llevar una vida saludable y evitar el sedentarismo. Recuerda... mente sana en cuerpo sano :)">
+    <meta name="theme-color" content="#F0DB4F">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Flash Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="/assets/dev.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="container" id="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1><span>Flash <i class="fa-solid fa-bolt-lightning"></i> Dev</span></h1>
+            </div>
+            <ul class="nav">
+                <li class="nav-items"><a href="" onclick="scrollToSection('#home')"><span class="link-text">Home</span><i class="fa-solid fa-house-user"></i></a></li>
+                <li class="nav-items"><a href="#about" onclick="scrollToSection('#about')"><span class="link-text">About</span><i class="fa-solid fa-address-card"></i></a></li>
+                <li class="nav-items"><a href="#skills" onclick="scrollToSection('#skills')"><span class="link-text">Skills</span><i class="fa-solid fa-laptop-code"></i></a></li>
+                <li class="nav-items"><a href=""><span class="link-text">Projects</span><i class="fa-brands fa-github"></i></a></li>
+                
+            </ul>
+            <a href="" class="btn"><i class="fa-solid fa-envelope"></i> Contact Me </a>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="banner-one">
+            <div class="home" >
+                <div class="home-header">
+                    <h5>Hello 👋,</h5>
+                </div>
+                <div class="home-main">
+                    <div class="home-main-title">
+                        <h1>I'am a web </h1>
+                        <h1 class="active">Developer</h1>
+                    </div>
+                </div>
+                <div class="home-text">
+                    <p>I build things for web</p>
+                </div>
+                <div class="home-footer">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="./assets/me/Me.webp" alt="hero">
+            </div>
+        </div>
+        <div class="banner-two">
+            <div class="experience">
+                <div class="years">
+                    <h1>1</h1>
+                    <p>Year of Experience</p>
+                </div>
+                <div class="projects">
+                    <h1>5</h1>
+                    <p>Projects Completed</p>
+                </div>
+            </div>
+            <div class="technologies">
+                <div class="tech">
+                    <img src="./assets/skills/html.webp" alt="">
+                    <img src="./assets/skills/css.webp" alt="">
+                    <img src="./assets/skills/js.webp" alt="">
+                    <img src="./assets/skills/vue.webp" alt="">
+                    <img src="./assets/skills/angular.webp" alt="">
+                    <img src="./assets/skills/bootstrap.webp" alt="">
+                    <img src="./assets/skills/python.webp" alt="">   
+                    <img src="./assets/skills/git.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner-three">
+            <div id="about" class="about">
+                <div class="about-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="about-main">
+                    <div class="about-main-header">
+                        <img src="./assets/me/dev.webp" alt="">
+                    </div>
+                    <div class="about-main-text">
+                        <div class="about-main-text-header">
+                            <h5>Hi my name is <span>Aarón Landeros</span></h5>
+                        </div>
+                        <p>
+                            I am a specialist in Multiplatform Software Development 
+                            with experience in creating innovative solutions. 
+                            I am motivated to contribute my technical skills to a Software Development 
+                            company and continue learning in a dynamic professional environment, 
+                            where I can acquire new competencies and continue my professional growth.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="soft-skills">
+                    <div class="soft-skills-header">
+                        <h1>Soft Abilities</h1>
+                    </div>   
+                </div>
+                <div class="soft-skills-main">
+                    
+                    <div class="soft-skills-card">
+                        <i class="fa-solid fa-users-rays"></i>
+                        <h3>Teamwork</h3>
+                    </div>
+                    
+                    <div class="soft-skills-card">
+                        <i class="fa-solid fa-gears"></i>
+                        <h3>Proactivity</h3>
+                    </div>
+                    
+                    <div class="soft-skills-card">
+                        <i class="fa-solid fa-comments"></i>
+                        <h3>Communication</h3>
+                    </div>
+                    
+                    <div class="soft-skills-card">
+                        <i class="fa-solid fa-arrows-split-up-and-left"></i>
+                        <h3>Flexibility</h3>
+                    </div>
+                    <div class="soft-skills-card">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h3>Initiative</h3>
+                    </div>
+                    
+                   
+                </div>
+                <div class="education-courses">
+                    <div class="section education">
+                        <div class="section-header">
+                            <h1><i class="fa-solid fa-user-graduate"></i> Education</h1>
+                        </div>
+                        <div class="section-content">
+                            <div class="item">
+                                <h4>Senior Technician in Software Development Multi platform</h4>
+                                <p>Technological University of Ciudad Juarez</p>
+                            </div>
+                            <div class="item">
+                                <h4>Software Development and Management Engineering</h4>
+                                <p>Technological University of Ciudad Juarez</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section courses">
+                        <div class="section-header">
+                            <h1><i class="fa-solid fa-graduation-cap"></i> Courses</h1>
+                        </div>
+                        <div class="section-content">
+                            <div class="item">
+                                <h4>NDG Linux Essentials</h4>
+                                <p>Cisco Networking Academy</p>
+                            </div>
+                            <div class="item">
+                                <h4>NDG Linux Essentials</h4>
+                                <p>Cisco Networking Academy</p>
+                            </div>
+                            <div class="item">
+                                <h4>IT Essentials: PC Hardware and Software</h4>
+                                <p>Cisco Networking Academy</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+            <div id="skills" class="skills">
+                <div class="skills-header">
+                    <h1>Skills & Tools</h1>
+                </div>
+                <div class="skills-main-header">
+                    <h4>My toolbox & things I can do</h4>
+                    <p>The skills, tools and technologies I use to bring your projects to life:</p>
+                </div>
+                <div class="skills-main">
+                    <div class="skills-card">
+                        <img src="./assets/skills/html.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/css.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/js.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/vue.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/angular.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/bootstrap.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/ionic.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/ts.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/python.webp" alt="">   
+                    </div>
+                    <div class="skills-card">
+                        <img id="php" src="./assets/skills/shell.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/api.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/responsive.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/firebase.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/sql.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/mongodb.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/git.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/linux.webp" alt="">
+                    </div>
+                    <div class="skills-card">
+                        <img src="./assets/skills/vs_code.webp" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="banner-four">          
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="sw.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

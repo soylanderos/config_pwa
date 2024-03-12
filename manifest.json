@@ -1,0 +1,19 @@
+{
+    "name": "Flash Developer",
+    "short_name": "Flash Dev",
+    "description": "Bienvenidos a mi sitio web, soy un desarrollador web, con experiencia en tecnologías como Vue, Angular, Node.js, Express, MongoDB, Firebase, entre otras. Si necesitas ayuda con tu proyecto, no dudes en contactarme.",
+    "background_color": "#8121d0",
+    "theme_color": "#331c52",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+      {
+        "src": "./assets/me/dev.webp",
+        "sizes": "420x420",
+        "type": "image/webp"
+      }
+    ]
+  }
